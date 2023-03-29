@@ -1,4 +1,5 @@
-#include<graphics.h>
+//#include "graphics.h"
+//#include "winbgim.h"
 #include<windows.h>
 
 void renderscreen(char pic[]){

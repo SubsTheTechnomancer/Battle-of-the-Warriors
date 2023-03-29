@@ -1,5 +1,6 @@
 #include<conio.h>
-#include<graphics.h>
+#include "graphics.h"
+#include "winbgim.h"
 #include<stdio.h>
 #include<iostream>
 #include "images.cpp"
@@ -8,7 +9,7 @@ using namespace std;
 
 bool knspec = false;
 bool drgspec = false;
-bool mgspec = 0;
+int mgspec = 0;
 int kturn = 0, dturn = 0, mturn = 0;
 
 struct player{
